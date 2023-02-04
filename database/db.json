@@ -35,12 +35,6 @@
       "detail": "test1 Detail",
       "complete": false,
       "id": 6
-    },
-    {
-      "title": "testing 2",
-      "detail": "testing2 detail",
-      "complete": false,
-      "id": 7
     }
   ]
 }

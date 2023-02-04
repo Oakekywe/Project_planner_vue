@@ -8,9 +8,11 @@
             <span class="material-icons" @click="deleteProject">
             delete
             </span>
-            <span class="material-icons">
-            edit
-            </span>
+            <router-link :to="{name:'EditProject', params:{id: project.id}}">
+                <span class="material-icons">
+                edit
+                </span>
+            </router-link>
             <span class="material-icons" @click="completeProject">
             done
             </span>
@@ -81,7 +83,7 @@ export default {
         align-items: center;
     }
     span{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     span:hover{        
         cursor: pointer;
