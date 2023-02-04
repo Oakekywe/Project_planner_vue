@@ -39,7 +39,7 @@
     {
       "title": "hi ",
       "detail": "hi",
-      "complete": false,
+      "complete": true,
       "id": 7
     },
     {
