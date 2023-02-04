@@ -4,13 +4,13 @@
       "id": 1,
       "title": "Project title 1",
       "detail": "Project detail 1",
-      "complete": false
+      "complete": true
     },
     {
       "id": 2,
       "title": "Project title 2",
       "detail": "Project detail 2",
-      "complete": false
+      "complete": true
     },
     {
       "id": 3,
@@ -31,10 +31,16 @@
       "complete": false
     },
     {
-      "id": 6,
-      "title": "Project title 6",
-      "detail": "Project detail 6",
-      "complete": false
+      "title": "test1",
+      "detail": "test1 Detail",
+      "complete": false,
+      "id": 6
+    },
+    {
+      "title": "testing 2",
+      "detail": "testing2 detail",
+      "complete": false,
+      "id": 7
     }
   ]
 }
